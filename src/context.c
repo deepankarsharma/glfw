@@ -660,6 +660,7 @@ GLFWAPI void glfwSwapBuffers(GLFWwindow* handle)
     }
 
     window->context.swapBuffers(window);
+    window->swappedBuffers = GLFW_TRUE;
 }
 
 GLFWAPI void glfwSwapInterval(int interval)

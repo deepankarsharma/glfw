@@ -561,6 +561,7 @@ struct _GLFWwindow
     double              virtualCursorPosX, virtualCursorPosY;
     GLFWbool            rawMouseMotion;
 
+    GLFWbool            swappedBuffers;
     _GLFWcontext        context;
 
     struct {
